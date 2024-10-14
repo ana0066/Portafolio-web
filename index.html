@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f6cb57d338.js" crossorigin="anonymous"></script>
+    <title>PORTAFOLIO WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/AM logo.png" type="image/x-icon">
+</head>
+<body>
+    <!--menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">María Anabel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/otrayo.jpeg" alt="background">
+            </div>
+            <h1>MARÍA ANABEL MENCIA</h1>
+            <h2>Diseñadora web - Administradora de base de datos</h2>
+            <div class="redes">
+                <a target="_blank" href="https://facebook.com/anabel_mencia_"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://x.com/MenciaAnabel_?t=2OZfK-MJvSV2wWfX12IYA&s=08"><i class="fa-brands fa-twitter"></i></a>
+                <a  target="_blank" href="https://www.linkedin.com/in/mar%C3%ADa-anabel-mencia-liz-ab478b331/"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href="https://instagram.com/anabel_mencia_"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-wifi"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy María Anabel Mencia.</span> soy estudiante del Instituto Politécnico Industrial Don Bosco (IPIDBOSCO). Estoy en el taller de Desarrollo y Administración de Aplicaciones Informáticas, y he desarrollado este portafolio con el motivo de darme a conocer junto con mi trabajo en el desarrollo de portales web.  </p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06-09-2007
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            809-958-5395
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            anabelmencia06@gmail.com
+                        </li>
+                        <li>
+                            <strong>Web site</strong>
+                            www.anabelsite.com
+                        </li>
+                        <li>
+                            <strong>DIrección</strong>
+                            Cristo Rey, c/12 #31
+                        </li>
+                        <li>
+                            <strong>Oficio</strong>
+                            Estudiante
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">  <div class="interes">
+                        <i class="fa-solid fa-people-arrows"></i>
+                        <span>DEBATIR</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <span>EL ARTE</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <span>LA MÚSICA</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>ESTUDIAR</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-film"></i>
+                        <span>PELICULAS</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>PROGRAMAR</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LEER</span>
+                      </div>
+                      <div class="interes">
+                        <i class="fa-solid fa-person-walking"></i>
+                        <span>CAMINAR</span>
+                      </div>
+                   </div>
+                </div>
+            </div>
+            <button><a href="/CV anabel oficial 00.pdf" target="_blank" rel="noopener noreferrer">
+                Descargar CV </a><i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+ 
+    <!--SECCION SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--Technical skill-->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>48%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño</span>
+                        <div class="barra-skill">
+                            <div class="progreso diseño">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML Y CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PAQUETE DE OFFICE</span>
+                        <div class="barra-skill">
+                            <div class="progreso office">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional skills-->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diligencia</span>
+                        <div class="barra-skill">
+                            <div class="progreso diligencia">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación primaria</h4>
+                        <span class="casa">Escuela básica María Alt. Franco (Doña Tatá)</span>
+                        <span class="fecha">2015-2019</span>
+                        <p>Mi educación primaria la recibí en esta escuela donde aprendí lexiones de vida que me sirvieron para toda la vida, ede igual manera conocí personas con la que estoy totalmente agradecida y feliz de que fueron parte de mi crecimiento personal y profesional. Tuve mis primeras participaciones en actividades extracurriculares y empezó mi interés por convertirme en una líder nata.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación secundaria</h4>
+                        <span class="casa">Escuela Doña Renée Klang de Gúzman</span>
+                        <span class="fecha">2019-2021</span>
+                        <p>Aquí curse mis primeros años de secundaria en los cuales fui creando amigos que me durarían una gran parte de mi vida. Fui descubriendome a mi misma cada día que pasaba y continuaba trabajando por esas cosas que me gustaban hacer, de manera que fui creando mi verdadera personalidad y conociendo más a fondo mis gustos y creencias.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="casa">IPIDBOSCO</span>
+                        <span class="fecha">2021-2025</span>
+                        <p>En esta institución pude empezar a mostrarles a los demás quien soy y que tengo para ofrecer. Pude desarrollar más mis habilidades de liderazgo y conocí muchas personas que podrían aportar en mi futuro profesional y personal. Me he estado preparando para poder ingresar en el mundo laboral en el área de Informática, donde he encontrado oportunidades únicas para desempeñar mis conocimientos y habilidades.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Pasante</h4>
+                        <span class="casa">Fondesa</span>
+                        <span class="fecha">2024-</span>
+                        <p>Mi primera experiencia laboral fue en Fondesa una empresa que se especializa en los préstamos a estudiantes con grandes metas y deseos de crecer profesionalmente </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Análista y diseñadora de sistemas</h4>
+                        <span class="casa">Freelancer</span>
+                        <span class="fecha">2024-</span>
+                        <p>Trabaje de análista en varios proyectos de empresas pequeñas como fueron dulcesitos y empresas un poco más grandes como lo es Publivisual en la cual se desarrollaron varias investigaciones de sus empresas para la realización de planes para el mejoramiento de sus negocios y la creación de un nuevo sistema de facturación que sea de mayor beneficio para ellos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrolladora web</h4>
+                        <span class="casa">Trabajo personal</span>
+                        <span class="fecha">2024-</span>
+                        <p>Cree varias páginas web personales para la promoción de ciertos proyectos escolares que son de gran intéres para mi, de manera que pude compartir estas informaciones con las demás personas en el entorno dígital.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section class="portafolio" id="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/img/pagina1.png" alt="">
+                    <div class="overlay">
+                        <h3>IPIDBOSCO SAVE THE WORLD</h3>
+                        <p>Página web ecológica</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/pagina2.png" alt="">
+                    <div class="overlay">
+                        <h3>Bonit@s USA</h3>
+                        <p>Página web de moda</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/pagina3.png" alt="">
+                    <div class="overlay">
+                        <h3>MUN</h3>
+                        <p>Página web de evento escolar</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/pagina5.png" alt="">
+                    <div class="overlay">
+                        <h3>Dulcesitos empresa</h3>
+                        <p>Análisis y diseño de sistemas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/pagina4.png" alt="">
+                    <div class="overlay">
+                        <h3>FARMAEXTRA</h3>
+                        <p>App de escritorio / sistema de facturación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/pagina6.png" alt="">
+                    <div class="overlay">
+                        <h3>Publivisual</h3>
+                        <p>Informe de ventas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION CONTACTO -->
+     <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- formulario -->
+                 <form class="col" action="https://formsubmit.co/mariaanabelmencia@gmail.com" method="POST">
+                 <div class="col">
+                    <input type="text" name="name" required placeholder="Tú nombre">
+                    <input type="text" name="Telefono" required placeholder="Número teléfonico">
+                    <input type="text" name="email" required placeholder="Dirección de correo">
+                    <input type="text" name="tema" required placeholder="Tema">
+                    <textarea name="Mensaje" id="" required rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                 </div>
+                </form>
+                 <!-- mapa -->
+                  <div class="col">
+                    <iframe class="img" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3762.7072234780285!2d-70.69347800000004!3d19.42505199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDI1JzMwLjIiTiA3MMKwNDEnMzYuNSJX!5e0!3m2!1ses-419!2sdo!4v1728852715056!5m2!1ses-419!2sdo" width="250" height="470" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> Cristo Rey, c/12 #31
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i> Llama al: 809-958-5395
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i> Email: anabelmencia06@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+     </seccion>
+
+     <!-- footer -->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a target="_blank" href="https://facebook.com/anabel_mencia_"><i class="fa-brands fa-facebook-f"></i></a>
+            <a target="_blank" href="https://x.com/MenciaAnabel_?t=2OZfK-MJvSV2wWfX12IYA&s=08"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/mar%C3%ADa-anabel-mencia-liz-ab478b331/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://instagram.com/anabel_mencia_"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-wifi"></i></a>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
